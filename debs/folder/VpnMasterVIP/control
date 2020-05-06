@@ -1,0 +1,10 @@
+Package: gq.sizar.vpnMaster
+Name: Vpn Master VIP
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: VPNProxy Master VIP!
+Maintainer: Sizar <sizarazad86@mail.ru>
+Author: Sizar <sizarazad86@mail.ru>
+Section: Tweaks
+Version: 0.0.1-1
+Installed-Size: 5230
