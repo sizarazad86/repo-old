@@ -2,7 +2,7 @@ Package: gq.sizar.vpnMaster
 Name: Vpn Master VIP
 Version: 0.0.1-1
 Architecture: iphoneos-arm
-Description: VPNProxy Master VIP! IAP
+Description: VPNProxy Master VIP!
 Maintainer: Sizar <sizarazad86@mail.ru>
 Author: Sizar <sizarazad86@mail.ru>
 Section: Tweaks
