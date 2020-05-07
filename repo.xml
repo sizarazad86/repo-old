@@ -1,0 +1,29 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Follow me on Instagram</name>
+			<url>https://instagram.com/s1z4r</url>
+			<iconclass>fa fa-instagram</iconclass>
+		</link>
+		<link>
+			<name>Follow me on Twitter</name>
+			<url>https://twitter.com/s1z4r</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+		<link>
+			<name>Add me on Snapchat</name>
+			<url>https://snapchat.com/add/s1z4r</url>
+			<iconclass>fa fa-snapchat-ghost</iconclass>
+		</link>
+		<link>
+			<name>Add me on Facebook</name>
+			<url>https://fb.me/Az4dEhsan</url>
+			<iconclass>fa fa-facebook</iconclass>
+		</link>
+		<link>
+			<name>Subscribe to My Youtube Channel</name>
+			<url>https://youtube.com/siz3r97</url>
+			<iconclass>fa fa-youtube</iconclass>
+		</link>
+	</footerlinks>
+</repo>
