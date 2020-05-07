@@ -7,7 +7,7 @@ Maintainer: Sizar <sizarazad86@mail.ru>
 Author: Sizar <sizarazad86@mail.ru>
 Section: Tweaks
 Depends: mobilesubstrate
-Filename: "./debs/VpnMasterVIP_iphoneos-arm.deb"
+Filename: ./debs/VpnMasterVIP_iphoneos-arm.deb
 Size: 5230
 Website: http://repo.sizu.gq/
 Depiction: https://repo.sizu.gq/depictions/?p=gq.sizu.vpnmastervip
@@ -25,7 +25,7 @@ Maintainer: Sizar <sizarazad86@mail.ru>
 Author: Sizar <sizarazad86@mail.ru>
 Section: Game Hacks
 Depends: mobilesubstrate
-Filename: "./debs/gq.sizu.CODM_Antiban_1.5_iphoneos-arm.deb"
+Filename: ./debs/gq.sizu.CODM_Antiban_1.5_iphoneos-arm.deb
 Size: 2369534
 Website: http://repo.sizu.gq/
 Depiction: https://repo.sizu.gq/depictions/?p=gq.sizu.CODMAntiban
@@ -43,7 +43,7 @@ Maintainer: Sizar <sizarazad86@mail.ru>
 Author: Sizar <sizarazad86@mail.ru>
 Section: Game Hacks
 Depends: mobilesubstrate
-Filename: "./debs/gq.sizu.ludostar_1.13_iphoneos-arm.deb"
+Filename: ./debs/gq.sizu.ludostar_1.13_iphoneos-arm.deb
 Size: 2304066
 Website: http://repo.sizu.gq/
 Depiction: https://repo.sizu.gq/depictions/?p=gq.sizu.ludostarhack
