@@ -34,7 +34,7 @@ MD5sum: 383ff5769661d416ced1b32eee64b93b
 SHA1: 30332818cd8623675f840cba265640c89bdae8d8
 SHA256: a1d7b6060ded4be127ccc339e10704bf4c89e73d58f81ce66fd9ead43f80339d
 
-Package: gq.sizu.ludostar
+Package: gq.sizu.ludostarhack
 Name: Ludo STAR Hack
 Version: 1.13
 Architecture: iphoneos-arm
@@ -46,7 +46,7 @@ Depends: mobilesubstrate
 Filename: "./debs/gq.sizu.ludostar_1.13_iphoneos-arm.deb"
 Size: 2304066
 Website: http://repo.sizu.gq/
-Depiction: https://repo.sizu.gq/depictions/?p=gq.sizu.ludostar
+Depiction: https://repo.sizu.gq/depictions/?p=gq.sizu.ludostarhack
 Icon: https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/d1/2c/ab/d12cab06-10ca-a01a-b07c-8d78a9015f4f/source/350x350bb.jpg
 MD5sum: dc30ca6a0ceeee56cdb6d4db555d7145
 SHA1: f9a453f5cbadf9b1eac90a22be6b14b8714eee0e
