@@ -1,4 +1,4 @@
-Package: gq.sizar.vpnMaster
+Package: gq.sizu.vpnmastervip
 Name: Vpn Master VIP
 Version: 0.0.1-1
 Architecture: iphoneos-arm
@@ -7,7 +7,7 @@ Maintainer: Sizar <sizarazad86@mail.ru>
 Author: Sizar <sizarazad86@mail.ru>
 Section: Tweaks
 Depends: mobilesubstrate
-Filename: "debs/VpnMasterVIP.deb"
+Filename: "./debs/VpnMasterVIP_iphoneos-arm.deb"
 Size: 5230
 Website: http://repo.sizu.gq/
 Depiction: https://repo.sizu.gq/depictions/?p=gq.sizu.vpnmastervip
@@ -15,6 +15,42 @@ Icon: https://repo.sizu.gq/CydiaIcon.png
 MD5sum: 95f273a6621361b5ff0e2d0f4bfe640e
 SHA1: b0667b2a01ae9930d6b0d150b63575c1e9023c7e
 SHA256: 585ba79edded76f4ea625f17a83a850ca37c8401307e1b9eae4c51f7a4b1ff3b
+
+Package: gq.sizu.CODMAntiban
+Name: Call of Duty: Mobile Anticheat Bypass
+Version: 1.5
+Architecture: iphoneos-arm
+Description: CODM Anticheat!
+Maintainer: Sizar <sizarazad86@mail.ru>
+Author: Sizar <sizarazad86@mail.ru>
+Section: Game Hacks
+Depends: mobilesubstrate
+Filename: "./debs/gq.sizu.CODM_Antiban_1.5_iphoneos-arm.deb"
+Size: 2369534
+Website: http://repo.sizu.gq/
+Depiction: https://repo.sizu.gq/depictions/?p=gq.sizu.CODMAntiban
+Icon: https://i.imgur.com/syRJoOC.jpg
+MD5sum: 383ff5769661d416ced1b32eee64b93b
+SHA1: 30332818cd8623675f840cba265640c89bdae8d8
+SHA256: a1d7b6060ded4be127ccc339e10704bf4c89e73d58f81ce66fd9ead43f80339d
+
+Package: gq.sizu.ludostar
+Name: Ludo STAR Hack
+Version: 1.13
+Architecture: iphoneos-arm
+Description: Ludo STAR Hack!
+Maintainer: Sizar <sizarazad86@mail.ru>
+Author: Sizar <sizarazad86@mail.ru>
+Section: Game Hacks
+Depends: mobilesubstrate
+Filename: "./debs/gq.sizu.ludostar_1.13_iphoneos-arm.deb"
+Size: 2304066
+Website: http://repo.sizu.gq/
+Depiction: https://repo.sizu.gq/depictions/?p=gq.sizu.ludostar
+Icon: https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/d1/2c/ab/d12cab06-10ca-a01a-b07c-8d78a9015f4f/source/350x350bb.jpg
+MD5sum: dc30ca6a0ceeee56cdb6d4db555d7145
+SHA1: f9a453f5cbadf9b1eac90a22be6b14b8714eee0e
+SHA256: 885256a7f9a7a5b0bf30a03250ba694df4ec8494ea0b9223b5b999c2c586d779
 
 Package: com.supermamon.newpackage
 Version: 2.0.0-1
@@ -43,4 +79,3 @@ Description: This is a sample old package. Firmware should be lower than 7.0
 Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
-
