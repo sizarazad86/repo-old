@@ -1,11 +1,11 @@
-Package: iOSGods.com.CODM
+Package: gq.sizu.CODMAntiban
 Name: COD Anticheat bypass
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: Call of Duty Anticheat bypass by X204 for iOSGods.com!
-Maintainer: iOSGods.com
-Author: X204
-Section: Tweaks
-Homepage: https://iosgods.com
-Version: 1.5+iOSGods.com
+Description: Call of Duty Anticheat bypass by Sizar!
+Maintainer: Sizar <sizarazad86@mail.ru>
+Author: Sizar <sizarazad86@mail.ru>
+Section: Game Hacks
+Homepage: https://repo.sizu.gq
+Version: 1.5
 Installed-Size: 8144
