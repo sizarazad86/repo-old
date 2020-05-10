@@ -1,0 +1,13 @@
+Package: gq.sizu.ludostarhack
+Name: Ludo Star Hack
+Version: 1.13
+Architecture: iphoneos-arm
+Description: Ludo Star iGMM Cheats by Sizar
+Maintainer: Sizar <sizarazad86@mail.ru>
+Author: Sizar <sizarazad86@mail.ru>
+Section: Game Hacks
+Depends: mobilesubstrate
+Installed-Size: 8104
+Homepage: https://repo.sizu.gq
+Depiction: https://repo.sizu.gq/depictions/?p=gq.sizu.ludostarhack
+Icon: https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/d1/2c/ab/d12cab06-10ca-a01a-b07c-8d78a9015f4f/source/350x350bb.jpg
