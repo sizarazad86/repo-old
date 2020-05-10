@@ -1,81 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="theme-dark" lang="en">
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
 	<title>Sizar's Repository</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://kit.fontawesome.com/d411a240f8.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/framework7.bundle.min.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/my-app.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+	<link rel="apple-touch-icon" href="CydiaIcon.png">
+	<link rel="icon" href="CydiaIcon.png">
 </head>
 
-<body style="text-align: center">
-
-	<div class="container">
-		<h1><img src="CydiaIcon.png" width="60px"> Sizar's Repo</h1>
+<body>
+	<div id="app">
+		<div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
+			<div class="page page-home">
+				<div class="navbar">
+					<div class="navbar-bg"></div>
+					<div class="navbar-inner">
+						<div class="left"></div>
+						<div class="title sliding">Sizar's Repository</div>
+						<div class="right color-white">
+							<a class="link icon-only" onclick="location.reload();">
+								<i class="icon f7-icons if-not-md">arrow_clockwise</i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="page-content"><br><br><br><br><br>
+					<div class="block">
+						<img class="app-icon animate__animated animate__fadeInLeft animate__delay-1s" src="CydiaIcon.png">
+						<p class="logo-label animate__animated animate__fadeInRight animate__delay-1s">Sizar's Repository</p>
+					</div><br>
+					<div class="block block-strong animate__animated animate__fadeIn animate__delay-1s">
+						Click on one of These icons bellow to Add the repo to the Desired app.
+					</div>
+					<div class="block">
+						<div class="row">
+							<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.sizu.gq/" class="link external">
+								<img class="col app-icon animate__animated animate__fadeInUp animate__delay-1s" src="CydiaLogo.png">
+							</a>
+							<a href="sileo://source/https://repo.sizu.gq/" class="link external">
+								<img class="col app-icon animate__animated animate__fadeInUp animate__delay-1s" src="SileoLogo.png">
+							</a>
+							<a href="zbra://sources/add/https://repo.sizu.gq/" class="link external">
+								<img class="col app-icon animate__animated animate__fadeInUp animate__delay-1s" src="ZebraLogo.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-
-	<div class="container">
-		<div class="well">
-			<p><span class="text-primary"><b>Sizar's Repoitory</b></span></p>
-			<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.sizu.gq/">Add to Cydia</a>
-		</div>
-	</div>
-
-	<div class="container">
-		<h3 id="wells" class="page-header">Featured Packages</h3>
-	</div>
-
-	<div class="container">
-
-		<div class="panel panel-default">
-			<div class="panel-heading">Ludo STAR Hack</div>
-			<div class="panel-body">
-				<b>Hack Features:</b><br>
-				- Undo Dice Roll Cost 0.<br>
-				- 99 Undo Rolls Per Match.<br /><br />
-				<a class="btn btn-xs btn-default" href="depictions/?p=gq.sizu.ludostarhack">More info</a>
-			</div>
-		</div>
-
-		<div class="panel panel-default">
-			<div class="panel-heading">Call of Duty anticheat bypass</div>
-			<div class="panel-body">
-				<b>Hack Features:</b><br>
-				Anticheat Bypass <br>
-				(login issue via call of duty account fixed).<br /><br />
-				<a class="btn btn-xs btn-default" href="depictions/?p=gq.sizu.CODMAntiban">More info</a>
-			</div>
-		</div>
-
-		<div class="panel panel-default">
-			<div class="panel-heading">VPNProxy Master VIP</div>
-			<div class="panel-body">
-				VIP for VPNProxy Master.<br /><br />
-				<a class="btn btn-xs btn-default" href="depictions/?p=gq.sizu.vpnmastervip">More info</a>
-			</div>
-		</div>
-
-		<div class="panel panel-default">
-			<div class="panel-heading">Old Package</div>
-			<div class="panel-body">
-				This is a sample package with minimal information.
-				It also simulates an old package that's incompatible only with iOS lower than 7.0.<br /><br />
-				<a class="btn btn-xs btn-default" href="depictions/?p=com.supermamon.oldpackage">More info</a>
-			</div>
-		</div>
-
-		<div class="panel panel-default">
-			<div class="panel-heading">New Package</div>
-			<div class="panel-body">
-				This is a sample package with lots of information.<br /><br />
-				<a class="btn btn-xs btn-default" href="depictions/?p=com.supermamon.newpackage">More info</a>
-			</div>
-		</div>
-
-	</div>
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/routes.js"></script>
+	<script src="js/app.js"></script>
 </body>
 
 </html>
