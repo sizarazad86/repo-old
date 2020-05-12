@@ -4,8 +4,6 @@
 	border-radius: 25px;
 }
 
-.logo-label:left {}
-
 .logo-label {
 	content: "../CydiaIcon.png";
 	font-size: 25px;
