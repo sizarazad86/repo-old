@@ -15,6 +15,24 @@
 	<link rel="apple-touch-icon" href="../../CydiaIcon.png">
 	<link rel="icon" href="../../CydiaIcon.png">
 </head>
+<script>
+	var app = new Framework7();
+
+	var $$ = Dom7;
+
+	/*=== Standalone Dark ===*/
+	var myPhotoBrowserDark = app.photoBrowser.create({
+		photos: [
+			'https://cdn.framework7.io/placeholder/sports-1024x1024-1.jpg',
+			'https://cdn.framework7.io/placeholder/sports-1024x1024-2.jpg',
+			'https://cdn.framework7.io/placeholder/sports-1024x1024-3.jpg',
+		],
+		theme: 'dark'
+	});
+	$$('.pb-standalone-dark').on('click', function() {
+		myPhotoBrowserDark.open();
+	});
+</script>
 
 <body>
 	<div id="app">
@@ -25,22 +43,36 @@
 						<p class="logo-label">Tweak Name</p>
 					</div>-->
 					<br><br>
-						<div class="block block-title-medium animate__animated animate__fadeInUp animate__delay-1s">Description</div>
+					<div class="block block-title-medium animate__animated animate__fadeInUp animate__delay-1s">Description</div>
 					<div class="block block-strong animate__animated animate__fadeInUp animate__delay-1s">
 						<p><b>Hack Features:</b><br>
 							- Undo Dice Roll Cost 0.<br>
 							- 99 Undo Rolls Per Match.</p>
 					</div>
-						<div class="block block-title-medium animate__animated animate__fadeInUp animate__delay-1s">Screenshots</div>
+					<div class="block block-title-medium animate__animated animate__fadeInUp animate__delay-1s">Screenshots</div>
+					<div class="animate__animated animate__fadeInUp animate__delay-1s">
+						<div class="list">
+							<a class="item-link item-content pb-standalone-dark">
+								<div class="item-media"><i class="icon f7-icons if-not-md">logo_instagram</i><i class="icon f7-icons if-md">logo_instagram</i></div>
+								<div class="item-inner">
+									<div class="item-title">Screenshots</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<a href="#" class="button button-fill pb-standalone-dark">Screenshots</a>
+					<!-- 
 					<div class="block block-strong animate__animated animate__fadeInUp animate__delay-1s">
-						<div data-pagination='{"el": ".swiper-pagination"}' data-space-between="10" data-slides-per-view="auto" class="swiper-container swiper-init">
+						<div data-space-between="10" data-slides-per-view="auto" class="swiper-container swiper-init">
 							<div class="swiper-pagination"></div>
 							<div class="swiper-wrapper">
 								<img src="screenshots/1.jpg" class="swiper-ss swiper-slide">
 								<img src="screenshots/2.jpg" class="swiper-ss swiper-slide">
+								<img src="screenshots/1.jpg" class="swiper-ss swiper-slide">
 							</div>
 						</div>
 					</div>
+					-->
 					<!-- <div class="block">
 						<div class="row">
 							<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.sizu.gq/" class="link external">
