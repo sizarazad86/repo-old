@@ -3,13 +3,13 @@
 		<link>
 			<name>Follow me on Instagram
 			<![CDATA[<br>]]></name>
-			<url>https://instagram.com/s1z4r</url>
+			<url>instagram://user?username=s1z4r</url>
 			<iconclass>fa fa-instagram</iconclass>
 		</link>
 		<link>
 			<name>Follow me on Twitter
 			<![CDATA[<br>]]></name>
-			<url>https://twitter.com/s1z4r</url>
+			<url>twitter://user?screen_name=s1z4r</url>
 			<iconclass>fa fa-twitter</iconclass>
 		</link>
 		<link>
