@@ -12,9 +12,9 @@ Size: 5230
 Homepage: https://repo.sizu.gq
 Depiction: https://repo.sizu.gq/depictions/?p=gq.sizu.vpnmastervip
 Icon: https://repo.sizu.gq/CydiaIcon.png
-MD5sum: 95f273a6621361b5ff0e2d0f4bfe640e
-SHA1: b0667b2a01ae9930d6b0d150b63575c1e9023c7e
-SHA256: 585ba79edded76f4ea625f17a83a850ca37c8401307e1b9eae4c51f7a4b1ff3b
+MD5sum: 47ba6ee84c0a964d6ca654dcac1ba7d3
+SHA1: c5087f5b35102436ef8db5a486c32217e0985abf
+SHA256: 547270ee5d75c566ef94638d11893bc763e9e95cf04a27d12c70eb02018348d5
 
 Package: gq.sizu.CODMAntiban
 Name: COD Anticheat bypass

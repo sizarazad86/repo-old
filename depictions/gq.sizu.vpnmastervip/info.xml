@@ -1,6 +1,6 @@
 <package>
 	<id>gq.sizu.vpnmastervip</id>
-	<name>VPNProxy Master Vip</name>
+	<name>Full Package</name>
 	<version>0.0.1-1</version>
 	<compatibility>
 		<firmware>
@@ -10,20 +10,30 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
-	<shortDescription>Version: 0.0.1-1</shortDescription>
+	<shortDescription>This is a sample new package. Firmware should be greater than 7.0</shortDescription>
 	<descriptionlist>
-		<description>VIP for VPNProxy Master.</description>
+		<description>This is an package will full depictions.</description>
+		<description>It has more description lines.</description>
+		<description><![CDATA[
+		You can also have<br/> 
+		a multi-line item.
+		]]>
+		</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
+			<description>This is a description for screenshot 1. It's Cydia!</description>
 			<image>1.jpg</image>
-		</screenshot>
+		</screenshot>		
 		<screenshot>
+			<description>This is a description for screenshot 2. It's another Cydia!</description>
 			<image>2.jpg</image>
-		</screenshot>
+		</screenshot>		
 	</screenshots>
 	<changelog>
-		<change>Initial release</change>
+		<change>Second release</change>
+		<change>It has feature 1</change>
+		<change>It has feature 2</change>
 	</changelog>
 	<!-- <links>
 		<link>

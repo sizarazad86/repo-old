@@ -1,26 +1,22 @@
 <repo>
 	<footerlinks>
 		<link>
-			<name>Follow me on Instagram
-			<![CDATA[<br>]]></name>
+			<name>Follow me on Instagram</name>
 			<url>instagram://user?username=s1z4r</url>
 			<iconclass>fa fa-instagram</iconclass>
 		</link>
 		<link>
-			<name>Follow me on Twitter
-			<![CDATA[<br>]]></name>
+			<name>Follow me on Twitter</name>
 			<url>twitter://user?screen_name=s1z4r</url>
 			<iconclass>fa fa-twitter</iconclass>
 		</link>
 		<link>
-			<name>Add me on Snapchat
-			<![CDATA[<br>]]></name>
+			<name>Add me on Snapchat</name>
 			<url>https://snapchat.com/add/s1z4r</url>
 			<iconclass>fa fa-snapchat-ghost</iconclass>
 		</link>
 		<link>
-			<name>Add me on Facebook
-			<![CDATA[<br>]]></name>
+			<name>Add me on Facebook</name>
 			<url>https://fb.me/Az4dEhsan</url>
 			<iconclass>fa fa-facebook</iconclass>
 		</link>

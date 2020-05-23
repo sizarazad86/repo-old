@@ -1,14 +1,55 @@
+@font-face {
+	font-family: sf;
+	src: url(../fonts/SFProDisplay-Regular.ttf);
+}
+
+@font-face {
+	font-family: sf;
+	src: url(../fonts/SFProDisplay-Bold.ttf);
+	font-weight: bold;
+}
+
+* {
+	font-family: sf;
+}
+
+img {
+	vertical-align: middle
+}
+
+h1 {
+	margin: .67em 0;
+	font-size: 2em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+
+.text-right {
+	text-align: right;
+}
+
 .app-icon {
 	width: 80px;
 	height: 80px;
 	border-radius: 25px;
+	box-shadow: 0 0 20px #ccc;
+}
+
+.tweak-icon {
+	width: 40px;
+	height: 40px;
 }
 
 .logo-label {
-	content: "../CydiaIcon.png";
 	font-size: 25px;
 	font-weight: bolder;
-	margin: -65px 0 0 95px;
 }
 
 .button-cydia {
@@ -43,4 +84,8 @@
 .swiper-ss {
 	border-radius: 6px;
 	width: 75%;
+}
+
+.row {
+	margin: auto 15px;
 }
